@@ -1,0 +1,13 @@
+[2015-12-13 23:05:34,819][INFO ][node                     ] [Left-Winger] version[1.4.4], pid[10735], build[c88f77f/2015-02-19T13:05:36Z]
+[2015-12-13 23:05:34,819][INFO ][node                     ] [Left-Winger] initializing ...
+[2015-12-13 23:05:34,823][INFO ][plugins                  ] [Left-Winger] loaded [], sites []
+[2015-12-13 23:05:37,634][INFO ][node                     ] [Left-Winger] initialized
+[2015-12-13 23:05:37,634][INFO ][node                     ] [Left-Winger] starting ...
+[2015-12-13 23:05:37,820][INFO ][transport                ] [Left-Winger] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/172.17.9.142:9300]}
+[2015-12-13 23:05:37,841][INFO ][discovery                ] [Left-Winger] elasticsearch/7h6UEzTSTP60HA532_xYAw
+[2015-12-13 23:05:41,625][INFO ][cluster.service          ] [Left-Winger] new_master [Left-Winger][7h6UEzTSTP60HA532_xYAw][climberwb-mongo-and-casandra-2187775][inet[/172.17.9.142:9300]], reason: zen-disco-join (elected_as_master)
+[2015-12-13 23:05:41,649][INFO ][http                     ] [Left-Winger] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/172.17.9.142:9200]}
+[2015-12-13 23:05:41,649][INFO ][node                     ] [Left-Winger] started
+[2015-12-13 23:05:41,660][INFO ][gateway                  ] [Left-Winger] recovered [0] indices into cluster_state
+[2015-12-13 23:06:10,490][INFO ][cluster.metadata         ] [Left-Winger] [blog] creating index, cause [api], shards [5]/[1], mappings []
+[2015-12-13 23:06:10,872][INFO ][cluster.metadata         ] [Left-Winger] [blog] create_mapping [post]
