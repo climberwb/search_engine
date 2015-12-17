@@ -8,7 +8,7 @@ var http = require('http');
 
 var app = express();
 
-// uncomment to wipe out development es instance
+// uncomment to wipe out development es instance use sparingly!
 // async.series([
 //   ES.dropIndexImis,
 //   ES.createIndexImis,
@@ -17,7 +17,7 @@ var app = express();
 // ], function(err) {
 //     console.log('End');
 //   });
-  
+
 app.use(bodyParser.json());
 
 var server = http.Server(app);
@@ -34,7 +34,3 @@ server.listen(8080, function(){
 });
 
 exports.app=app;
-
-
-
-
