@@ -1,0 +1,18 @@
+To make a clustor
+
+mkdir -p /repl/data1 /repl/data2 /repl/data3 /repl/data4
+
+
+./mongod --replSet waren_repl --dbpath /repl/data1 --port 2001 
+sudo ./mongod --replSet waren_repl --dbpath /repl/data1 --port 2001 --smallfiles
+cd /opt/mongodb/bin
+
+./mongod --replSet waren_repl --dbpath /repl/data2 --port 2002 
+./mongod --replSet waren_repl --dbpath /repl/data3 --port 2003 
+./mongod --replSet waren_repl --dbpath /repl/data4 --port 2004
+
+run mongo --port of machine
+add machine to cluster - rs.add("hostname: port#")
+check to see if machine was added - rs.status() 
+
+ask how to make a machine primary and secondary within cluster?

@@ -1,0 +1,19 @@
+{
+  "name": "search_engine",
+  "version": "1.0.0",
+  "description": "To Build a search engine",
+  "main": "server.js",
+  "dependencies": {
+    "async": "1.2.1",
+    "body-parser": "^1.14.1",
+    "elasticsearch": "^8.2.0",
+    "express": "^4.13.3",
+    "http": "0.0.0",
+    "lodash": "3.8.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Warren Kushner",
+  "license": "ISC"
+}
